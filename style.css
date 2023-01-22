@@ -703,6 +703,7 @@ header.sticky{
     align-items: center;
     z-index: 100;
     position: relative;
+    padding: 0 10px;
 }
 .join-right h3{
     font-size: 2rem;

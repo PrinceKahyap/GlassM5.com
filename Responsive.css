@@ -113,6 +113,13 @@
         grid-template-columns:  1fr;
         justify-items: center;
     }
+    .foot-content p{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .join-left {
+        padding: 4rem 3rem;
+    }
 }
 
 @media(max-width:568px) {
