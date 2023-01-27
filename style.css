@@ -658,6 +658,7 @@ header.sticky{
 }
 .hello-content h3{
     font-size: 1.8rem;
+    text-align: center;
     font-weight: 500;
     color: #263d5a;
 }
