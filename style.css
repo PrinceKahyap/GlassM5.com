@@ -514,6 +514,18 @@ header.sticky{
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
+    position: relative;
+}
+.client-overlay{
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
 }
 .client .title{
     display: flex;
@@ -522,6 +534,7 @@ header.sticky{
     flex-direction: column;
     gap: 10px;
     padding-bottom: 50px;
+    position: relative;
 }
 .client .title h2{
     font-size: 3rem;
@@ -538,6 +551,8 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    position: relative;
+    z-index: 100;
 }
 .clientBoxs{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
@@ -850,7 +865,8 @@ header.sticky{
     text-align: center;
     padding: 50px;
     font-size: 3rem;
-    font-weight: 400;
+    color: #263d5a;
+    font-weight: 600;
 }
 .contact-wrapper form{
     display: flex;

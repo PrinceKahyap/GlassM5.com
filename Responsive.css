@@ -126,8 +126,14 @@
     .container {
         padding: 0 10px;
     }
+    .navbar{
+        height: 70px;
+    }
     .logo a {
         font-size: 2rem;
+    }
+    .nav-menu{
+        top: 70px;
     }
     .nav-menu a {
         font-size: 1.4rem;
@@ -151,6 +157,7 @@
     .hero-container p{
         text-align: center;
         font-size: 1.6rem;
+        width: 90%;
     }
     .hero-btn button {
         font-size: 1.4rem;
@@ -196,6 +203,9 @@
         font-size: 1.4rem;
 
     }
+    .competence {
+        padding-top: 60px;
+    }
     .competenceBox-right{
         padding: 50px 25px;
     }
@@ -219,6 +229,9 @@
        width: 95%;
        font-size: 1.8rem;
     }
+    .client .title p{
+        width: 90%;
+    }
     .client-container{
         grid-template-columns: 1fr;
     }
@@ -227,6 +240,7 @@
     }
     .feedback-container h2{
         font-size: 3rem;
+        width: 100%;
     }
     .feedItems{
          flex-direction: column;
