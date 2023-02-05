@@ -126,6 +126,9 @@
     .container {
         padding: 0 10px;
     }
+    header.sticky {
+        height: 70px;
+    }
     .navbar{
         height: 70px;
     }
